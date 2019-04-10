@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class SolorsControllerTest < ActionDispatch::IntegrationTest
+class SolarsControllerTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end

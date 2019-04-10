@@ -1,0 +1,2 @@
+class SolarsController < ApplicationController
+end

@@ -1,0 +1,2 @@
+module SolarsHelper
+end

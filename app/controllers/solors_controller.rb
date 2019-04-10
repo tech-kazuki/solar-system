@@ -1,2 +1,0 @@
-class SolorsController < ApplicationController
-end
