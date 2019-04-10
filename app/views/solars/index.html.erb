@@ -32,5 +32,6 @@
     </div>
   </div>
 
-    <%=link_to '▶︎My Planetary System◀︎', root_path, class: "index_link"%>
+    <%=link_to '▶︎MAKE My Planetary System◀︎', new_user_session_path, class: "index_link" unless user_signed_in? %>
+    <%=link_to '>My Planetary System', user_patn(current_user.id), class: "index_link" if user_signed_in? %>
  </div>
